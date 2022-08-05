@@ -1,0 +1,53 @@
+
+.conatiner1{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 20px grey;
+    
+}
+ul{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    color: grey;
+    font-weight: 500;
+    font-size: medium;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+ul li{
+margin-right: 50px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.twitterIcon{
+    color: rgb(10, 182, 250);
+    justify-content: center;
+    margin-top: 25px;
+    margin-right: 500px;
+    cursor: pointer;
+}
+.tweetButton{
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: rgb(10, 182, 250);
+    color: #ffffff;
+    align-items: center;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+.tweetButton:hover{
+   
+    background-color: rgb(4, 27, 27);
+    transition: ease-in 0.3s;
+}

@@ -1,0 +1,116 @@
+.subContainer{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+    margin: 20px;
+    position: relative;
+}
+.profileCard{
+    width: 300px;
+    height:250px;
+    box-shadow: 0 0 20px grey;
+    margin: 5px;
+}
+.header{
+    height: 80px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 700;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.image{
+    display: flex;
+    align-items:flex-start;
+  
+}
+.name{
+    color: black;
+    margin-left: 5px;
+}
+.picture{
+    border-radius:50%;
+    width: 50px;
+    height: 50px;
+   padding-top: 1px;
+   position: relative;
+}
+
+.firstList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+    font-weight: 500;
+    overflow: hidden;
+}
+.secondList li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(9, 178, 245);
+    font-weight: 700;
+  
+}
+ul .listItem{
+    text-align: right;
+}
+.recentTweets{
+    width:600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-flow: column;
+    align-items: flex-start;
+    align-content: center;
+    box-shadow: 0 0 20px grey;
+    margin:5px 10px;
+}
+.description{
+    color: black;
+    font-family: 400;
+    float: left;
+}
+.Small-description{
+color: black;
+float: left;
+text-align-last: auto;
+width:auto;
+z-index: 1000000;
+}
+.heading{
+    float: left;
+    margin: 10px;
+}
+.follow{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px grey;
+    margin-top: 5px;
+    align-items: flex-start;
+    padding: 10px;
+}
+.flw-btn{
+background-color: aliceblue;
+color: rgb(11, 140, 245);
+border-radius: 25px;
+border: 0.3px solid rgb(11, 140, 245) ;
+align-items: center;
+font-weight: 700;
+cursor: pointer;
+}
+.flw-btn:hover{
+    background-color: rgb(7, 218, 250);
+    transition: ease-in 0.3s;
+}
+img{
+    float: left;
+}
+span{
+    float: right;
+    text-align: left;
+}
